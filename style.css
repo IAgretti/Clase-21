@@ -1,0 +1,123 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 15px;
+    position: relative;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    width: 200px;
+}
+nav li:hover .submenu {
+    display: block;
+}
+.submenu li {
+    margin-bottom: 2px;
+}
+/* .submenu li:hover {
+    background-color: #ddd;
+} */
+.submenu li a:hover {
+    color: #333;
+    background-color: #eee;
+}
+.submenu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+section {
+    margin-bottom: 30px;
+    flex: 2;
+}
+aside {
+    flex: 1;
+    display: block;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+.titular-destacado {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #007bff;
+}
+.titular {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.noticia-destacada {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.noticia-destacada img {
+    display: block;
+    width: 150px;
+    height: 100px;
+    margin: 5px auto;
+    text-align: center;    
+}
+.noticia-destacada h3 {
+    display: block;
+    margin-top: 0;
+}
+.articulo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
